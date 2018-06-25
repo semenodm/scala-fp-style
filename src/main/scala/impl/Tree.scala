@@ -1,6 +1,7 @@
-package functors.impl
+package impl
 
-import functors.Functor
+import cats.Functor
+
 
 sealed trait Tree[+A]
 
